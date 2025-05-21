@@ -246,7 +246,7 @@ def printtoken(
     (srow, scol) = srow_col
     (erow, ecol) = erow_col
     print(
-        "%d,%d-%d,%d:\t%s\t%s" % (srow, scol, erow, ecol, tok_name[type], repr(token))
+        "%d,%d-%d,%d | %s | %s" % (srow, scol, erow, ecol, tok_name[type], repr(token))
     )
 
 
